@@ -1,0 +1,9 @@
+{
+  "name": "robot-sandbox",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "vscode",
+  "hostRequirements": { "cpus": 2, "memory": "8gb" },
+  "customizations": {
+    "vscode": { "extensions": ["James-Yu.latex-workshop", "mechatroner.rainbow-csv"] }
+  }
+}

@@ -1,0 +1,21 @@
+# Data stays out of git: WRDS extracts may not be redistributed, and raw downloads are rebuilt by
+# the scripts. A referee re-creates both.
+data/wrds/
+data/raw/
+
+# Harness scratch
+.phase-done
+
+# Python and LaTeX by-products
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

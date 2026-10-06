@@ -1,0 +1,5 @@
+# Scripts run inside Linux containers: keep Unix line endings even when edited on Windows.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.parquet binary
