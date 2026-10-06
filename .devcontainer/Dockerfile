@@ -1,6 +1,5 @@
 # The course sandbox: the only things inside are this repository, Python, LaTeX and Claude Code.
 # Nothing from your laptop is in here: no home folder, no SSH keys, no Dropbox, no other repositories.
-# (Goldsmith-Pinkham, Ep. 7: "The important design choice is the boundary.")
 FROM mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
 
 # LaTeX, enough for an article with tables, figures and a bibliography. (The base image's Yarn
