@@ -4,7 +4,7 @@ A course exercise: an agent writes an empirical paper from your one-page idea me
 sandbox. A classmate then referees what it wrote. The handout (`week2-hand-it-to-the-robot.pdf`, in
 the course folder) has every step and the rules; this is the short version.
 
-## Step 1: the sandbox (about 15 minutes)
+## Step 1: the sandbox
 1. On this repository's GitHub page: **Use this template → Create a new repository**. Make it
    **private**.
 2. In your new repository: **Code → Codespaces → Create codespace on main**. The first build takes a
@@ -13,7 +13,7 @@ the course folder) has every step and the rules; this is the short version.
    back, then `/exit`.
 4. Run `bash smoke-test.sh` and read what it prints.
 
-## Step 2: the robot (about 20 minutes of your time, then 1–3 hours of machine time)
+## Step 2: the robot
 1. Paste your memo into `memo/memo.md`, exactly as you uploaded it. Put your name and email in
    `memo/contact.txt`. Commit both.
 2. Run `bash run-paper.sh`. Then leave it alone.
